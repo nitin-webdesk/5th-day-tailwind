@@ -6,19 +6,20 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div 
-    class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed"
-    style="background-image:url(https://cdn.pixabay.com/photo/2021/11/12/17/04/insect-6789529_960_720.jpg)">
-        <div>
-           
-        </div>
-    </div>
-    <div>
+  <h1 class="text-4xl text-center font-black py-8">Grid</h1>
 
-      <div class="bg-blue-500 w-full h-full">
-        <div class="bg-red-500 w-4/5 mx-auto">
-           <h1 class="bg-red-500 text-white w-max p-4">Tailwond!</h1>
-        </div>
+  <div class="grid grid-cols-3 gap-4">
+    <div class="bg-red-500 h-24 row-span-2 h-full">
+      <p>Grid Item 1</p>
     </div>
-  
-</body>
+    <div class="bg-yellow-500 h-24">
+      <p>Grid Item 2</p>
+    </div>
+    <div class="bg-blue-500 h-24">
+      <p>Grid Item 3</p>
+    </div>
+    <div class="bg-green-500 h-24">
+      <p>Grid Item 4</p>
+    </div>
+  </div>
+  </body>
